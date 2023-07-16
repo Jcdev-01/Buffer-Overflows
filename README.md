@@ -1,3 +1,6 @@
 BUFFER-OVERFLOWS - Fuzzer 
 
-Use TRUN or STATS on payload 
+You can use TRUN or STATS command on payload 
+
+You can edit the file to change the command payload.
+

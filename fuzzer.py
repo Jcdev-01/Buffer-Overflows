@@ -18,7 +18,7 @@ while True:
         buffer = buffer + "A"*100
     except:
         print("""
-        
+
          / _ \  ___   ___ |  _ \ ___| |  
         | | | |/ _ \ / _ \| |_) / __| |  
         | |_| | (_) | (_) |  __/\__ \_|  
@@ -26,5 +26,5 @@ while True:
                                    
          """
         )
-        print("The fuzzing crashed at %s bytes" % str(len(buffer)))
+        print("       The fuzzing crashed at %s bytes       " % str(len(buffer)))
         sys.exit()
